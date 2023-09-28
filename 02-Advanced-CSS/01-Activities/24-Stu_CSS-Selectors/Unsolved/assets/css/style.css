@@ -69,6 +69,13 @@ footer {
 }
 
 /* TODO: Add code here to select all <a> elements that link to a file with a `.css` extension */
+/* find paper and pencil emoji by searching html unicode U+1F4DD */
+
+a[href$='.css']::after{
+  content:'📝';
+  display: inline-block;
+  padding-left: 3px;
+}
 
 @media screen and (max-width: 768px) {
   header {

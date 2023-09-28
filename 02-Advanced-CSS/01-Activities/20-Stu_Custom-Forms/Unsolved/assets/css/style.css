@@ -86,6 +86,8 @@ button {
 }
 
 /* What does this CSS rule do and what does moz and webkit represent? */
+
+/* moz represents mozilla broswer, and will allow an element to appear on mozilla. Will ignore moz appearance. Webkit is same for webkit browser. appearance here is changing the look of arrow */
 select {
   /* -moz-appearance: none;
   -webkit-appearance: none; */
@@ -113,11 +115,13 @@ select:hover, button:hover {
 }
 
 /* What does this pseudo-class mean? */
+/* Where the cursor is, focuses the element */
 .text-input:focus {
   border-right-width: 5px;
 }
 
 /* What does this pseudo-class mean? */
+/* placeholder shown is if empty */
 .text-input:placeholder-shown {
   border-style: dashed;
 }
@@ -137,12 +141,14 @@ select:hover, button:hover {
 }
 
 /* What does this selector do? */
+/* checkbox stays checked and makes the element italic and gray. looks for sibling next to check mark (the plus label) */
 .checkbox:checked + label {
   color: #999999;
   font-style: italic;
 }
 
 /* What does this selector do? */
+/* adds the word thanks after it is checked */
 .checkbox:checked + label::after {
   margin-left: 10px;
   font-size: 90%;

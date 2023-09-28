@@ -88,7 +88,16 @@ footer {
 }
 
 /* TODO: Add styles that will hide the resource links by default */
+.resources h3{
+  font-size: 150%
+}
+.resources ul{
+  visibility: hidden;
+}
 
+.resources:hover ul{
+  visibility:inherit;
+}
 
 
 /* TODO: Add styles that will display the links when the mouse hovers over the parent element */

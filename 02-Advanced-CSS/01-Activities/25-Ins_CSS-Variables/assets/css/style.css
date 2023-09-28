@@ -1,4 +1,5 @@
 /* create custom CSS variables (also called custom properties) and apply them to the root of the page, making them accessible to all other CSS */
+/* used for theming and recurring styles. that is why it is inside of a root element */
 :root {
   /* declare a variable with `--` syntax */
   --dark: #13293d;

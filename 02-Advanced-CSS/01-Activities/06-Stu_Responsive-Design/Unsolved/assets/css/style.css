@@ -16,7 +16,7 @@ header {
 
 /* 
 What happens when we set the display property to flex? 
-TODO: Write your answer here 
+TODO: Allows flexbox to function on the website. 
 */
 nav {
   display: flex;
@@ -32,7 +32,7 @@ nav a {
 
 /* 
 What is the flex-wrap property? 
-TODO: Write your answer here 
+TODO: The text will move onto the next line. 
 */
 main {
   display: flex;
@@ -56,7 +56,7 @@ footer {
 
 /* 
 What does the justify-content property do? 
-TODO: Write your answer here 
+TODO: Change the spacing of the elements 
 */
 .products {
   flex: 4;
@@ -70,7 +70,7 @@ TODO: Write your answer here
 /* 
 What is the flex property a shorthand property for?
 What is it doing here? 
-TODO: Write your answer here 
+TODO: shows growth rate of the object, the shrink, and the default size of the object. Here it does not grow or shrink.
 */
 .card {
   border-style: solid;
@@ -93,9 +93,9 @@ TODO: Write your answer here
 }
 
 /* 
-What does the flex-direction property define?
+What does the flex-direction property define? 
 What is it doing here? 
-TODO: Write your answer here 
+The flex direction moves the content into a certain layout or direction. In this case, the elements will stack.
 */
 @media screen and (max-width: 768px) {
   main,

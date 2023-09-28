@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: #FDF8F5;
+    color: #4F4846;
+}
+
+.nav-text{
+    text-align: right;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+main {
+    padding: 60 px 0;
+}   
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FDF8F5;
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #266150;
+}
+
+header {
+    position: fixed;
+    border-bottom: 10px solid #DDAF94;
+}
+
+footer {
+    position:absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #4F4846;
+    color: #FDF8F5;
+}
+
+figure{
+    margin-bottom: 40px;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+}
