@@ -1,4 +1,6 @@
-
+*{
+    background-color: rgb(47, 59, 66);
+}
 .flex-container{
     display: flex;
     flex-wrap: wrap;
@@ -6,10 +8,28 @@
     gap: 30px;
 }
 
+p{
+    text-align: center;
+    font-size: 20px;
+    font: arial;
+    font-family: sans-serif;
+    color: white;
+}
 .card{
     border: 2px gray dashed;
     height: 200px;
     width: 200px;
     flex: 1
 }
+h1{
+    font-size: 40px;
+    font:trebuchet;
+    font-family: sans-serif;
+    font-weight: 700px;
+    color:rgb(226, 96, 226)
+}
 
+div:hover{
+    color: purple;
+
+}
