@@ -20,4 +20,7 @@ site3El.children[1].children[0].setAttribute("src", "assets/images/image_3.jpg")
 site3El.children[1].children[0].setAttribute("alt", "women working");
 site3El.children[1].children[0].setAttribute("style", "padding:10px;");
 
-// Write Your Code Below
+var headers = document.querySelectorAll("h4");
+for (var i = 0; i < headers.length; i ++){
+    headers [i] .setAttribute("style", "color: blue; font-size:30px; font-weight: bold; padding-left: 10px; margin: 0;");
+}
