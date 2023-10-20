@@ -5,6 +5,12 @@
   --lightteal: #d5f5f5;
   --light: #fffaf7;
 }
+.custom-navbar {
+  background-color: var(--lightteal)!important;
 
+}
+.custom-card {
+  color: var(--tan);
+}
 /* Add your custom class style definitions here */
 /* HINT: Apply CSS variables using `var(--brown)` syntax as your property value */
