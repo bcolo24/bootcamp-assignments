@@ -18,4 +18,12 @@ readFile('./data/post.json', 'utf-8')
   })
   .then(() => {
     console.log('Created post.html');
+  })
+  .catch(err => {
+    console.log("Error...", err)
+    writeFile('error-log.txt', err.message + (new Date()).toString() + "\n", {encoding: "utf-8"})
+    .then( () => {
+      console.log("error written to file");
+    });
   });
+  ;

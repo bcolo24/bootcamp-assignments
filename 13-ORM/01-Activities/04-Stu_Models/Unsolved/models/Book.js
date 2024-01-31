@@ -1,0 +1,42 @@
+const { Model, DataTypes } = require('sequelize');
+const sequelize = require('../config/connection');
+
+class Book extends Model {}
+
+Book.init(
+  {
+    book_id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+    title: {
+      type: DataTypes.STRING
+    },
+    author: {
+      type: DataTypes.STRING
+    },
+    isbn: {
+      type: DataTypes.STRING
+    },
+    pages: {
+      type: DataTypes.INTEGER
+    },
+    edition: {
+      type: DataTypes.INTEGER
+    },
+    is_paperback: {
+      type: DataTypes.BOOLEAN
+    }
+  },
+  {
+    sequelize,
+    timestamps: false,
+    underscored: true,
+    modelName: 'book',
+    // sequelize automatically pluralizes table names. This is to hard code as singular
+    freezeTableName: true 
+  }
+);
+
+module.exports = Book;

@@ -15,6 +15,10 @@ const songs = [
   '10. Fiel',
 ];
 
+
 console.log('Spotify top 10:\n');
+for (song of songs) {
+  outputCyanText(song);
+}
 
 // TODO: Write a for .. of loop that iterates over each song and uses the `outputCyanText()` method to output each song in a cyan color to the terminal.
